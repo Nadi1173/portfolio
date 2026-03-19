@@ -1,0 +1,113 @@
+# 🚀 Narayan Asati — Backend Engineer Portfolio
+
+> Personal portfolio website built to communicate backend engineering depth, system design thinking, and real-world engineering impact to recruiters and hiring managers.
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-6c63ff?style=for-the-badge&logo=vercel)](https://narayan-asati.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/narayan-asati)
+[![LeetCode](https://img.shields.io/badge/LeetCode-300%2B-FFA116?style=for-the-badge&logo=leetcode)](https://leetcode.com/narayan-asati)
+
+---
+
+## 👤 About
+
+Portfolio of **Narayan Asati** — Backend Software Engineer with 2.8+ years of experience at **Vymo** (Fortune 500 SaaS platform).
+
+Specializes in:
+- ⚡ REST API design & microservices architecture
+- 📡 Kafka-based real-time event pipelines
+- 🏗️ Distributed systems & fault-tolerant backend design
+- 🤖 LLM-powered microservices (FastAPI + GPT-4)
+- 📊 OLAP analytics at scale (ClickHouse)
+
+---
+
+## 📁 Project Structure
+
+
+
+portfolio/
+├── index.html # Single-file portfolio (HTML + CSS + JS)
+├── resume.pdf # Resume — served at /resume.pdf
+└── README.md # This file
+
+
+
+---
+
+## 🧩 Sections
+
+| # | Section | Description |
+|---|---------|-------------|
+| 01 | **Hero** | Name, title, key stats, Resume download CTA |
+| 02 | **About** | Backend engineering focus, tech philosophy |
+| 03 | **Skills** | Languages, frameworks, messaging, cloud, system design |
+| 04 | **Experience** | Vymo · MTS — REST APIs, Kafka, microservices, LLM |
+| 05 | **Backend Systems** | 6 production-grade projects with architecture details |
+| 06 | **Architecture** | Live CDC + analytics pipeline diagram |
+| 07 | **Knowledge** | DSA & System Design notes / blog cards |
+| 08 | **Achievements** | GATE 98.14%, 10M+ events/day, 60% latency reduction |
+| 09 | **Education** | M.Tech IIIT Allahabad · CGPA 8.92 |
+| 10 | **Contact** | Email, LinkedIn, GitHub, LeetCode, Codeforces, GFG |
+
+---
+
+## ✨ Features
+
+- **Single-file** — entire portfolio in one `index.html`, zero dependencies to install
+- **Dark theme** — custom CSS variables, noise overlay, gradient accents
+- **Fully responsive** — mobile hamburger nav, fluid grids, clamp typography
+- **Scroll animations** — `IntersectionObserver`-based reveal on scroll
+- **Scroll progress bar** — fixed top indicator
+- **Terminal card** — animated JetBrains Mono terminal widget (desktop only)
+- **Resume download** — direct PDF served from `/resume.pdf`
+- **Performance** — no frameworks, no build step, instant load
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Markup | HTML5 |
+| Styling | CSS3 (Custom Properties, Grid, Flexbox) |
+| Scripting | Vanilla JavaScript (ES6+) |
+| Fonts | Inter · JetBrains Mono (Google Fonts) |
+| Icons | Font Awesome 6.5 |
+| Hosting | Vercel / Netlify / GitHub Pages |
+
+---
+
+## 🚀 Getting Started
+
+### Run Locally
+
+```bash
+# Clone the repo
+git clone https://github.com/Nadi1173/portfolio.git
+cd portfolio
+
+# Option 1 — Open directly in browser
+open index.html
+
+# Option 2 — Serve with Python (recommended for /resume.pdf to work)
+python3 -m http.server 8080
+# Visit http://localhost:8080
+
+
+npm i -g vercel
+vercel --prod
+
+# Drag and drop the folder at https://app.netlify.com/drop
+# OR use Netlify CLI
+npm i -g netlify-cli
+netlify deploy --prod --dir .
+
+
+git init
+git add .
+git commit -m "feat: initial portfolio"
+git branch -M main
+git remote add origin https://github.com/Nadi1173/portfolio.git
+git push -u origin main
+# Enable GitHub Pages in repo Settings → Pages → main branch
+
